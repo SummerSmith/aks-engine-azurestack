@@ -28,7 +28,7 @@
             }
         },
         "customCloudProfile": {
-            "portalURL": "https://portal.kirkland.azurestack.corp.microsoft",
+            "portalURL": "https://portal.local.azurestack.external",
             "identitySystem": ""
         },
         "featureFlags": {
