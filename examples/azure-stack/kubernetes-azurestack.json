@@ -28,14 +28,14 @@
             }
         },
         "customCloudProfile": {
-            "portalURL": "",
+            "portalURL": "https://portal.kirkland.azurestack.corp.microsoft",
             "identitySystem": ""
         },
         "featureFlags": {
             "enableTelemetry": true
         },
         "masterProfile": {
-            "dnsPrefix": "",
+            "dnsPrefix": "sumsmith",
             "distro": "aks-ubuntu-20.04",
             "count": 3,
             "vmSize": "Standard_DS2_v2"
@@ -55,7 +55,7 @@
             "ssh": {
                 "publicKeys": [
                     {
-                        "keyData": ""
+                        "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdQgNo7TeVQcgtHExKbGJ+pkTkG2NLHmFCeWNj8SlHu4Ynpd2bp1oVnYgDNfVxQU+KMqiPNjTrLfLQatWPCXCB6CeVpuVft25mldmkFgDOI69JKXtZOQJUd/uO5PRcmaiHDFxXmGx+1QqewNOhTbrOVS00GJ3OgTLOxSJut4Uwgf0u3/CC1HlWxOoSEinv4bvm9wQZncfU/CjQ4cf950j9djqTFcrpMukRT49lnMb1iejjz7fYwsbIFHKpqCTAcNx5sysmP11d6AqdUzrV8xpS0StCXkd5IUg8oid6I/6+Pubsk//klrIF8FPvhTj1fmoy+pCoyGvjO1IoKNktiJDR rsa-key-20230213"
                     }
                 ]
             },
