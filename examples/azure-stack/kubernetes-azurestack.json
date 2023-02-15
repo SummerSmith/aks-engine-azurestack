@@ -3,8 +3,8 @@
     "location": "",
     "properties": {
         "orchestratorProfile": {
-            "orchestratorRelease": "1.24",
-            "orchestratorVersion": "1.24.9",
+            "orchestratorRelease": "1.23",
+            "orchestratorVersion": "1.23.15",
             "kubernetesConfig": {
                 "cloudProviderBackoff": true,
                 "cloudProviderBackoffRetries": 1,
@@ -28,14 +28,14 @@
             }
         },
         "customCloudProfile": {
-            "portalURL": "https://portal.local.azurestack.external",
+            "portalURL": "",
             "identitySystem": ""
         },
         "featureFlags": {
             "enableTelemetry": true
         },
         "masterProfile": {
-            "dnsPrefix": "sumsmith",
+            "dnsPrefix": "",
             "distro": "aks-ubuntu-20.04",
             "count": 3,
             "vmSize": "Standard_DS2_v2"
@@ -55,7 +55,7 @@
             "ssh": {
                 "publicKeys": [
                     {
-                        "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdQgNo7TeVQcgtHExKbGJ+pkTkG2NLHmFCeWNj8SlHu4Ynpd2bp1oVnYgDNfVxQU+KMqiPNjTrLfLQatWPCXCB6CeVpuVft25mldmkFgDOI69JKXtZOQJUd/uO5PRcmaiHDFxXmGx+1QqewNOhTbrOVS00GJ3OgTLOxSJut4Uwgf0u3/CC1HlWxOoSEinv4bvm9wQZncfU/CjQ4cf950j9djqTFcrpMukRT49lnMb1iejjz7fYwsbIFHKpqCTAcNx5sysmP11d6AqdUzrV8xpS0StCXkd5IUg8oid6I/6+Pubsk//klrIF8FPvhTj1fmoy+pCoyGvjO1IoKNktiJDR rsa-key-20230213"
+                        "keyData": ""
                     }
                 ]
             },
